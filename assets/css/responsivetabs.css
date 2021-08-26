@@ -1,0 +1,33 @@
+.responsive-tabs.responsive-tabs-initialized{display:block}
+.responsive-tabs>div.content{clear:both}
+.responsive-tabs.accordion{border:1px solid #e1e1e1;}
+.responsive-tabs.accordion>nav{display:none}
+.responsive-tabs.accordion h3.accordion-title{margin:0}
+.responsive-tabs.accordion h3.accordion-title a{background:#fff;font-weight:400;border-top:1px solid #e1e1e1;padding:10px 15px;display:block;font-size:16px;color:#333;text-decoration:none}
+.responsive-tabs.accordion h3.accordion-title:first-child a{border-top:none}
+.responsive-tabs.accordion>div.content>section{padding:10px;background:#fff;display:block;border-top:1px solid #e1e1e1;overflow:auto}
+.responsive-tabs.tabs{border:none}
+.responsive-tabs.tabs>nav{display:block}
+.responsive-tabs.tabs>nav ul{list-style:none;padding:0;margin:0}
+.responsive-tabs.tabs>nav ul:after{content:'';display:table;clear:both}
+.responsive-tabs.tabs>nav ul li{float:left;font-size:16px;border-left:1px solid #e1e1e1;border-top:1px solid #e1e1e1}
+.responsive-tabs.tabs>nav ul li:last-child{border-right:1px solid #e1e1e1}
+.responsive-tabs.tabs>nav ul li.active{position:relative;z-index:2;top:2px;margin-top:-2px;border-bottom:1px solid #fff}
+.responsive-tabs.tabs>nav ul li a{color:#333;background:#fff;padding:10px 15px;font-size:16px;display:block;text-decoration:none}
+.responsive-tabs.tabs h3.accordion-title{display:none}
+.responsive-tabs.tabs>div.content{padding:15px;background:#fff;border:1px solid #e1e1e1;}
+
+.chef-details-section .panel{border: none;}
+/*Admin Track Orders css Start here*/
+.order-details .order-detail-tab > nav ul {list-style-type: none;display: block;margin: 0;padding: 0;}
+.order-details .order-detail-tab > nav ul li {width: 20%;text-align: center;float:left;border-right:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;border-top:1px solid #e1e1e1}
+.order-details .order-detail-tab > nav ul li a {font-weight: 500;letter-spacing: 0.5px;color:#333;background:#fff;padding:10px 15px;font-size:16px;display:block;text-decoration:none}
+.order-details .order-detail-tab > div.content{padding: 20px;}
+.clr{clear: both;}
+.order-details .order-detail-tab>nav ul li.active{border-bottom:1px solid #e1e1e1}
+.order-details .order-detail-tab>nav ul li.act{position:relative;z-index:2;top:2px;margin-top:-2px;border-bottom:1px solid #fff}
+.order-details .order-detail-tab > nav ul li.act a {color: #b53710;}
+@media (max-width:1199px) {
+.order-details .order-detail-tab > nav ul li a{font-size: 14px; padding: 10px 5px;}
+}
+/*Admin Track Orders css End here*/
